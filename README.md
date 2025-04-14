@@ -56,12 +56,6 @@ streamlit run pdf_qa.py
 
 ---
 
-## 📸 Demo
-
-Coming soon!
-
----
-
 ## 📁 Directory Structure
 
 ```
