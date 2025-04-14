@@ -49,7 +49,7 @@ pip install -r requirements.txt
 2. **Run the app**:
 
 ```bash
-streamlit run app.py
+streamlit run pdf_qa.py
 ```
 
 3. **Upload a PDF** and start asking questions!
@@ -66,19 +66,10 @@ Coming soon!
 
 ```
 .
-├── app.py                  # Main Streamlit app
+├── pdf_qa.py                  # Main Streamlit app
 ├── README.md               # Project documentation
 ├── requirements.txt        # Required Python packages
 ```
-
----
-
-## 📚 Example Models
-
-- LLM: [`meta-llama/Llama-3-8b`](https://huggingface.co/meta-llama) (use quantized 4-bit versions for faster inference)
-- Embeddings: `sentence-transformers/all-mpnet-base-v2`
-
----
 
 ## 🧠 Behind the Scenes
 
@@ -90,12 +81,6 @@ Coming soon!
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License. See `LICENSE` for details.
-
----
-
 ## 🙌 Acknowledgements
 
 - [Meta AI](https://ai.meta.com/) for Llama 3
@@ -103,6 +88,3 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 - [LangChain](https://www.langchain.com/)
 - [FAISS](https://github.com/facebookresearch/faiss)
 
----
-
-Would you like a custom logo/banner for your repo too?
