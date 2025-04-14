@@ -1,5 +1,3 @@
----
-
 # 📄 PDF_QA_Llama3.2
 
 **PDF_QA_Llama3.2** is an AI-powered PDF question-answering application built using **LangChain**, **FAISS**, **Sentence-Transformers**, and **Meta’s Llama 3.2** (quantized). It allows users to upload PDF documents, extract their content, and ask questions — receiving intelligent, context-aware answers in real time.
